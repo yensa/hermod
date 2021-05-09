@@ -1,0 +1,12 @@
+message ModelA {
+    int32 id = 1;
+    string name = 2;
+    enum TypeEnum {
+        TYPE_A = 0;
+        TYPE_B = 1;
+        TYPE_C = 2;
+    }
+    TypeEnum type = 3;
+    int32 power = 4;
+    ModelB model_b = 5;
+}
