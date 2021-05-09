@@ -482,7 +482,11 @@
                 
                 <h2 id="usage">Usage<a class="headerlink" href="#usage" title="Permanent link">&para;</a></h2>
 <p>To use Hermod in a project</p>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>    import hermod
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>    <span class="kn">import</span> <span class="nn">hermod</span>
+
+    <span class="nb">print</span><span class="p">(</span><span class="n">hermod</span><span class="o">.</span><span class="n">model_to_message</span><span class="p">(</span><span class="n">MyModel</span><span class="p">)</span><span class="o">.</span><span class="n">to_string</span><span class="p">())</span>
 </code></pre></div>
 </td></tr></table>
                 
