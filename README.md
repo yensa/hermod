@@ -8,30 +8,29 @@
 </a>
 
 <a href="https://github.com/yensa/hermod/actions">
-    <img src="https://github.com/yensa/hermod/actions/workflows/main.yml/badge.svg?branch=release" alt="CI Status">
-</a>
-
-<a href="https://hermod.readthedocs.io/en/latest/?badge=latest">
-    <img src="https://readthedocs.org/projects/hermod/badge/?version=latest" alt="Documentation Status">
-</a>
-
-<a href="https://pyup.io/repos/github/yensa/hermod/">
-<img src="https://pyup.io/repos/github/yensa/hermod/shield.svg" alt="Updates">
+    <img src="https://github.com/yensa/hermod/actions/workflows/main.yml/badge.svg?branch=main" alt="CI Status">
 </a>
 
 </p>
 
-
 Hermod is a package that generates .proto files out of your sqlalchemy models
 
-
 * Free software: MIT
-* Documentation: <https://hermod.readthedocs.io>
-
+* Documentation: <https://yensa.github.io/hermod/>
 
 ## Features
 
-* TODO
+### Convert sqlalchemy models to proto message
+
+```python
+from hermod import model_to_message, Message
+
+message = model_to_message(MyModel)
+
+assert isinstance(message, Message)
+
+print(message.to_string())
+```
 
 ## Credits
 
