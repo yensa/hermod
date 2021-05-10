@@ -1,0 +1,5 @@
+greenlet==1.1.0; python_version >= "3"
+importlib-metadata==4.0.1
+sqlalchemy==1.4.14
+typing-extensions==3.10.0.0
+zipp==3.4.1; python_version < "3.8"
