@@ -1,17 +1,10 @@
 # Hermod
 
-
-<p align="center">
-<a href="https://pypi.python.org/pypi/hermod">
-    <img src="https://img.shields.io/pypi/v/hermod.svg"
-        alt = "Release Status">
-</a>
-
-<a href="https://github.com/yensa/hermod/actions">
-    <img src="https://github.com/yensa/hermod/actions/workflows/main.yml/badge.svg?branch=main" alt="CI Status">
-</a>
-
-</p>
+[![dev workflow](https://github.com/yensa/hermod/actions/workflows/dev.yml/badge.svg?branch=main)](https://github.com/yensa/hermod/actions/workflows/dev.yml)
+[![codecov](https://codecov.io/gh/yensa/hermod/branch/main/graph/badge.svg?token=L7Z4LYGMUT)](https://codecov.io/gh/yensa/hermod)
+[![Requires.io](https://img.shields.io/requires/github/yensa/hermod)](https://requires.io/github/yensa/hermod/requirements/?branch=main)
+[![PyPI](https://img.shields.io/pypi/v/hermod)](https://pypi.python.org/pypi/hermod)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/hermod)](https://pypi.python.org/pypi/hermod)
 
 Hermod is a package that generates .proto files out of your sqlalchemy models
 
